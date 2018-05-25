@@ -1,0 +1,31 @@
+button {
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact-btn {
+    width: 99%;
+    padding: 3%;
+    background: #FFFFFF;
+    border: none;
+    color: $body-color;
+    font-size: 1.3em;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.contact-btn :focus {
+    background: orange;
+} 
+.contact-btn:hover {
+    background: #F2F2F2;
+}
+
+
+@media screen and (max-width: 564px) {
+    .contact-btn {
+        padding: 6%;
+        font-size: 1em;
+    }
+}

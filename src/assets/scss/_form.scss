@@ -1,0 +1,48 @@
+.input {
+    border: 0;
+    background: #828282;
+    border-radius: 5px;
+    padding: 2%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+	line-height: 1;
+    height: 30px;
+    color: $body-color;
+    width: 95%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+input:focus {
+    background: #FFFFFF;
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(70, 69, 69); 
+}
+
+.textarea {
+    border: 0;
+    background: #828282;
+    border-radius: 5px;
+    width: 95%;
+    padding: 2%;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.textarea:focus {
+    background: #FFFFFF;
+}
+
+@media screen and (max-width: 756px) {
+    .input {
+        height: 40px;
+        padding: 2% 4%;
+        width: 92%;
+    }
+    .textarea {
+        padding: 2% 4%;
+        width: 92%;
+    }
+}

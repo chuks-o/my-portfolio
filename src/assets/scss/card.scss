@@ -1,0 +1,28 @@
+.card-container {
+    width: 500px;
+    height: 450px;
+    border: 1px solid grey;
+    background: #828282;
+    border: 1px solid whitesmoke;
+    margin: 0px 10px 10px; 
+}
+
+.card-image {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    img {
+        width: 100%;
+    }
+}
+
+.card-text {
+    padding: 2%;
+    // background: #FFFFFF;
+}
+
+@media screen and (max-width: 568px) {
+    
+}
