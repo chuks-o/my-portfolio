@@ -1,24 +1,27 @@
 <template>
-<div class="home">
-    <div class="header">
-        <div class="avatar-div">
-            <img src="../assets/avatar.png" alt="avatar">
-        </div><br>
-        <div class="intro">
-            <span ref="header" class="typed"></span>
-            <p class="interest"> I'm very passionate about technology, humanity and problem solving. 
-                My proficiency encomprises of: The LAMP (Linux, Apache, MySQL, PHP) and the MEVN (Mongo, Express, Vue JS, Node JS) Stacks. <br>
-                I also love to play around frameworks like <a href="https://www.laravel.com" target="_blank">Laravel</a>, 
-                <a href="https://www.vuejs.org" target="_blank">Vue JS</a> and design tool <a href="https://www.figma.com" target="_blank">Figma</a>.
-                You can contact me <router-link to="/contact-me"> here <i class="fa fa-arrow-circle-right"></i> </router-link>
-            </p>
-        </div>
-        <div>
+    <transition name="fade">
+        <div class="home">
+            <div class="header">
+                <div class="avatar-div">
+                    <img src="../assets/my-avatar.jpg" alt="avatar">
+                </div><br>
+                <div class="intro">
+                    <span ref="header" class="typed"></span>
+                    <p class="interest"> I'm very passionate about technology, humanity and problem solving. 
+                        My technology proficiency encomprises of: The LAMP (Linux, Apache, MySQL, PHP) and the MEVN (Mongo, Express, Vue JS, Node JS) Stacks. <br>
+                        I also love to play around frameworks like <a href="https://www.laravel.com" target="_blank">Laravel</a>, 
+                        <a href="https://www.vuejs.org" target="_blank">Vue JS</a> and design tool <a href="https://www.figma.com" target="_blank">Figma</a>.
+                        <h4 class="interest">PS: I run an online store <a href="https://www.instagram.com/unboxed_stores" target="_blank">Unboxed Stores</a>. Follow me here and Patronise me ejooor!</h4>
+                        You can quickly fire me a mail <router-link to="/contact-me"> here <i class="fa fa-arrow-circle-right"></i> </router-link>
+                    </p>
+                </div>
+                <div>
 
-            <a href="https://twitter.com/Davecodes01?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Davecodes01</a>
+                    <a href="https://twitter.com/commandline_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @commandline_</a>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+    </transition>
 </template>
 
 
@@ -34,7 +37,7 @@ export default {
             var element = this.$refs.header
             var options = {
                 strings: [
-                    "<h2>Hi, I am Chuks and I'm a <a href='/google-cert' target='_blank'> Google</a> certified full-stack Web developer.</h2><span style='color:white; font-weight:bold';>(Okpala Chukwualasu) <img src='http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/128/Nigeria-Flag-icon.png' alt='flag' style='width:13px; height:13px'></span>",
+                    "<h2>Hi, I am Chuks and I'm a <a href='/google-cert' target='_blank'> Full-Stack </a>Web developer.</h2><span style='color:white; font-weight:bold';>(Okpala Chukwualasu) <img src='http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/128/Nigeria-Flag-icon.png' alt='flag' style='width:13px; height:13px'></span>",
                     ],
                 typeSpeed: 50
             }
@@ -93,6 +96,14 @@ em {
 
 .interest {
     text-align: center;
+    font-weight: normal;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 
 @media screen and (max-width: 568px) {
@@ -124,6 +135,7 @@ em {
     .intro {
         width: 100%;
     }
+    
 }
 
 </style>
