@@ -1,7 +1,7 @@
 <template>
 <div class="card-container">
     <div class="card-image">
-        <img src="@/assets/images/screenshot-crop.png" alt="">
+        <img src="../assets/screenshot-crop.png" alt="">
     </div>
     <div class="card-text">
         <h3>Something light</h3>
