@@ -3,7 +3,7 @@
         <div class="home">
             <div class="header">
                 <div class="avatar-div">
-                    <img src="../assets/my-avatar.jpg" alt="avatar">
+                    <img src="https://pbs.twimg.com/profile_images/920405336187600897/xKRYx31Y_400x400.jpg" alt="avatar">
                 </div><br>
                 <div class="intro">
                     <span ref="header" class="typed"></span>
@@ -36,7 +36,7 @@ export default {
             var element = this.$refs.header
             var options = {
                 strings: [
-                    "<h2>Hi, I am Chuks and I'm a <a href='/google-cert' target='_blank'> Full-Stack </a>Web developer.</h2><span style='color:white; font-weight:bold';>(Okpala Chukwualasu) <img src='http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/128/Nigeria-Flag-icon.png' alt='flag' style='width:13px; height:13px'></span>",
+                    "<h2>Hi, I am Chuks and I'm a Full-Stack Web developer.</h2><span style='color:white; font-weight:bold';>(Okpala Chukwualasu) <img src='http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/128/Nigeria-Flag-icon.png' alt='flag' style='width:13px; height:13px'></span>",
                     ],
                 typeSpeed: 50
             }

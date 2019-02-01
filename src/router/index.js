@@ -11,7 +11,7 @@ export default new Router({
   linkActiveClass: true,
   mode: 'history',
   routes: [
-    { path: '*', redirect: '/' },
+    { path: '*', redirect: '/my-portfolio' },
     {
       path: '/',
       name: 'Home',

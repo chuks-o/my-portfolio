@@ -23,29 +23,33 @@
         <router-view/>
       </div>
         <div class="footer">
-          <span>{{ date }} <sup>&copy;</sup> </span>
-          <div class="social">
-              <span>
-                <a href="/">
-                  <i class="fa fa-twitter"></i>
+            <span>{{ date }} <sup>&copy;</sup> </span>
+            <div class="social">
+                <span>
+                  <a href="https://twitter.com/commandline_"
+                    target="_blank">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </span>
+              <span >
+                <a href="https://github.com/chuks-o"
+                    target="_blank">
+                  <i class="fa fa-github"></i>
                 </a>
               </span>
-            <span >
-              <a href="/">
-                <i class="fa fa-github"></i>
-              </a>
-            </span>
-            <span >
-              <a href="/">
-                <i class="fa fa-medium"></i>
-              </a>
-            </span>
-            <span >
-              <a href="/">
-                <i class="fa fa-linkedin"></i>
-              </a>
-            </span>
-      </div>
+              <span >
+                <a href="https://medium.com/@okpalachuks"
+                    target="_blank">
+                  <i class="fa fa-medium"></i>
+                </a>
+              </span>
+              <span >
+                <a href="https://ng.linkedin.com/in/okpala-chukwualasu-10882712a"
+                    target="_blank">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </span>
+        </div>
   </div>
     </section>
   </div>

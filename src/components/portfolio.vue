@@ -5,6 +5,7 @@
         <h2 class="header">My Portfolio</h2>
         <p>My Resume will be available on demand.</p>
         <p>You can also find my works on <a href="https://www.github.com/chuks-o" target="_blank">Github </a>(<i class="fa fa-github"></i>)</p>
+        <p>My <router-link to='/google-cert'>Andela/Google</router-link> Certification</p>
         <p>My newbie designs are available on <a href="https://www.figma.com" target="_blank">Figma </a>
           &nbsp;<i class="fa fa-warning"></i> CAUTION: If you love your eyes and sanity, you should deeply consider skipping this. Thanks!
         </p>
