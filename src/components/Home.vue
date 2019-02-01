@@ -3,7 +3,7 @@
         <div class="home">
             <div class="header">
                 <div class="avatar-div">
-                    <img src="../assets/my-avatar.jpg" alt="avatar">
+                    <img src="../assets/images/my-avatar.jpg" alt="avatar">
                 </div><br>
                 <div class="intro">
                     <span ref="header" class="typed"></span>
