@@ -10,13 +10,13 @@
                 <div class="form-div">                
                     <form action="" id="main-form" @submit.prevent="sendMail">
                         <div>
-                            <input type="text" name="name" class="input" v-model="name" placeholder="Full Name" required>
+                            <input type="text" name="name" class="input" v-model="name" placeholder="Full Name" autocomplete="off" required>
                         </div>
                         <div>
-                            <input type="email" name="email"  v-model="email" class="input" placeholder="Email Address" required>
+                            <input type="email" name="email"  v-model="email" class="input" placeholder="Email Address" autocomplete="off" required>
                         </div>
                         <div>
-                            <textarea name="message" cols="30" rows="10" class="textarea" v-model="message" placeholder="Message" required></textarea>
+                            <textarea name="message" cols="30" rows="10" class="textarea" v-model="message" placeholder="Message" autocomplete="off" required></textarea>
                         </div>
                         <div>
                             <button type="submit" class="contact-btn">Send Message</button>

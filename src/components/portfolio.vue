@@ -3,18 +3,18 @@
     <div class="container">
       <div class="info">
         <h2 class="header">My Portfolio</h2>
-        <p>My <router-link to="">Resume</router-link> is available for download.</p>
+        <p>My Resume will be available on demand.</p>
         <p>You can also find my works on <a href="https://www.github.com/chuks-o" target="_blank">Github </a>(<i class="fa fa-github"></i>)</p>
-        <p>My newbie designs are available on <a href="https://www.behance.com" target="_blank">Behance </a>(<i class="fa fa-behance"></i>).
-        &nbsp;<i class="fa fa-warning"></i> CAUTION: If you love your eyes and sanity, you should deeply consider skipping this. Thanks!</p>
+        <p>My newbie designs are available on <a href="https://www.figma.com" target="_blank">Figma </a>
+          &nbsp;<i class="fa fa-warning"></i> CAUTION: If you love your eyes and sanity, you should deeply consider skipping this. Thanks!
+        </p>
       </div>
-
     </div>
   </transition>
 </template>
 
 <script>
-import Card from "@/components/card.vue";
+import Card from "../components/card.vue";
 export default {
   components: { Card },
   data() {

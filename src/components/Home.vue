@@ -9,10 +9,9 @@
                     <span ref="header" class="typed"></span>
                     <p class="interest"> I'm very passionate about technology, humanity and problem solving. 
                         My technology proficiency encomprises of: The LAMP (Linux, Apache, MySQL, PHP) and the MEVN (Mongo, Express, Vue JS, Node JS) Stacks. <br>
-                        I also love to play around frameworks like <a href="https://www.laravel.com" target="_blank">Laravel</a>, 
-                        <a href="https://www.vuejs.org" target="_blank">Vue JS</a> and design tool <a href="https://www.figma.com" target="_blank">Figma</a>.
-                        <h4 class="interest">PS: I run an online store <a href="https://www.instagram.com/unboxed_stores" target="_blank">Unboxed Stores</a>. Follow me here and Patronise me ejooor!</h4>
-                        You can quickly fire me a mail <router-link to="/contact-me"> here <i class="fa fa-arrow-circle-right"></i> </router-link>
+                        It also excites me to build projects that require the use of frameworks like <a href="https://www.laravel.com" target="_blank">Laravel</a>, 
+                        <a href="https://www.reactjs.org" target="_blank">React JS</a> and design tool <a href="https://www.figma.com" target="_blank">Figma</a>. Leave me a message
+                       <router-link to="/contact-me"> here <i class="fa fa-arrow-circle-right"></i> </router-link>
                     </p>
                 </div>
                 <div>
