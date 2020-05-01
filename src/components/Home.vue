@@ -3,7 +3,7 @@
         <div class="home">
             <div class="header">
                 <div class="avatar-div">
-                    <img src="https://pbs.twimg.com/profile_images/920405336187600897/xKRYx31Y_400x400.jpg" alt="avatar">
+                    <img src="../assets/my_avatar.jpg" alt="avatar">
                 </div><br>
                 <div class="intro">
                     <span ref="header" class="typed"></span>
