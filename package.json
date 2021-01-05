@@ -12,7 +12,7 @@
     "deploy": "push-dir --dir=dist --branch=master --cleanup"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "hoek": "^5.0.3",
     "typed.js": "^2.0.6",
     "vue": "^2.5.2",
