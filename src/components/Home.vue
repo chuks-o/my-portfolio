@@ -3,7 +3,7 @@
         <div class="home">
             <div class="header">
                 <div class="avatar-div">
-                    <img src="../assets/my_avatar.jpg" alt="avatar">
+                    <img src="https://photos.wellfound.com/users/8851962-medium_jpg?1673015020" alt="avatar">
                 </div><br>
                 <div class="intro">
                     <span ref="header" class="typed"></span>
